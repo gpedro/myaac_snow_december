@@ -1,0 +1,17 @@
+{
+	"name": "myaac_snow_december",
+	"description": "This plugin adds a snow effect when it reaches December",
+	"version": "1.0",
+	"author": "gpedro",
+	"contact": "github.com/gpedro",
+	"hooks": {
+		"myaac_snow_december": {
+			"type": "AFTER_PAGE",
+			"file": "plugins/myaac_snow_december/myaac_snow_december.php"
+		}
+	},
+	"uninstall": [
+		"plugins/myaac_snow_december.json",
+		"plugins/myaac_snow_december"
+	]
+}
