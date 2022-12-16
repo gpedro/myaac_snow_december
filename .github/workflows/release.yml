@@ -15,6 +15,7 @@ jobs:
           name: myaac_snow_december-${{ github.sha }}
           path: |
             ./
+            !.git
             !.github
             !.md
             !*.sh
